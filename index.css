@@ -12,18 +12,19 @@ body{
 
 .menu_container{
     display: flex;
-    gap: 400px;
+    gap: 300px;
     margin: 50px;
     
 }
 #logo{  /*i used id here*/
     justify-content: left;
-    margin-top: 50px;
+    margin-top: 20px;
     display: inline-block;
     border-radius: 10px;
+    width: 150px;
 }
 .menu{
-    margin-top: 100px;
+    margin-top: 70px;
     display: inline-block;  
 }
 .menu ul{
@@ -32,7 +33,7 @@ body{
     color: #f8f5f5;
 }
 .menu ul li{
-    width: 120px;
+    width: 100px;
     padding: 10px;
     margin: 20px;
 }
@@ -49,7 +50,7 @@ body{
 .intro{
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 90px;
 }
 
 .left_details, .right_details{
@@ -72,22 +73,23 @@ body{
     padding: 10px;
 }
 .img{
-    width: 450px;
+    width: 400px;
     border-radius: 150px;
 }
 /*------------------------this is for expertise section-------*/
-.title h1{
+.title h2{
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    font-size: 30px;
     color: #a2f43c;
 }
  .skill_title{
     text-align: center;
-    padding: 20px;
-    color: #ffffff;
-    font-size: 30px;
+    padding: 10px;
+    color: #f3a57b;
+    font-size: 20px;
  }
  .skill_section{
     display: flex;
@@ -112,7 +114,7 @@ body{
     padding: 20px 20px;
     text-align: left;
     word-spacing: 0.4pc;
-    background-color: #0f083b73;
+    background-color: #09042454;
     border-radius: 5px;
     max-height: 109px;
     overflow: hidden;
@@ -133,7 +135,7 @@ body{
  }
  /*------------------------this is for counting animate section-------*/
  .progress {
-    padding-bottom: 70px;
+    padding-bottom: 50px;
     margin-top: 100px;
 }
 .container_stats {
@@ -143,45 +145,45 @@ body{
     flex-wrap: wrap;
     padding: 20px;
 }
-#title{/*i used id here*/
+title{/*i used id here*/
     font-size: 22px;
 }
 .stat_item {
     text-align: center;
     padding: 20px;
-    min-width: 200px;
+    min-width: 50px;
 }
 
 .count_title {
-   font-size: 50px;
+   font-size: 40px;
    font-weight: normal;
-   margin-top: 10px;
+   margin-to: 8px;
    margin-bottom: 0;
    color: #ffffff;
-   font-weight: bolder;
+   font-weight: bold;
    text-align: center;
 }
 
 .stats_text {
-   font-size: 20px;
+   font-size: 22px;
    font-weight: bolder;
    color: #febb98;
    font-weight: normal;
-   margin-top: 15px;
+   margin-top: 20px;
    margin-bottom: 0;
    text-align: center;
    text-transform: uppercase;
 }
 
 .stats_line {
-   margin: 12px auto 0;
+   margin: 16px auto 0;
    width: 55px;
    height: 2px;
    background-color: #00ff33;
 }
 .stats_icon {
    float: none;
-   font-size: 50px;
+   font-size: 40px;
    margin: 0 auto;
    display: table;
    color: #ffffff;
@@ -203,7 +205,7 @@ body{
  }
  .links{
     display: inline-block;
-    margin: 10px 150px 0px 0px;
+    margin: 10px 70px 0px 0px;
     width: 250px;
     vertical-align: top;
  }
@@ -267,8 +269,8 @@ body{
  }
  .link-Disclaimer{
     display: block;
-    width: 850px;
-    margin-left: 500px;
+    width: 750px;
+    margin-left: 300px;
     margin-top: -100px;
     padding-bottom: 20px;
  }

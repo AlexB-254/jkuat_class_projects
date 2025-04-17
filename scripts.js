@@ -95,6 +95,6 @@ document.addEventListener("DOMContentLoaded", function() {
     
     setTimeout(() => {
       thankYouMsg.style.display = "none";
-    }, 10000);
+    }, 20000);
   });
 });
