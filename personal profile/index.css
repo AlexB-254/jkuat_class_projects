@@ -1,0 +1,294 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-size: cover;
+    background-position: right;
+    background-image: url(bckg1.jpg);
+}
+
+.menu_container{
+    display: flex;
+    gap: 400px;
+    margin: 50px;
+    
+}
+#logo{  /*i used id here*/
+    justify-content: left;
+    margin-top: 50px;
+    display: inline-block;
+    border-radius: 10px;
+}
+.menu{
+    margin-top: 100px;
+    display: inline-block;  
+}
+.menu ul{
+    display: inline-flex;
+    list-style: none;
+    color: #f8f5f5;
+}
+.menu ul li{
+    width: 120px;
+    padding: 10px;
+    margin: 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 20px;
+}
+.menu ul li a:hover{
+    color: #4bc153;
+    text-decoration: underline;
+}
+/*------------------------this is for landing section section-------*/
+.intro{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.left_details, .right_details{
+   display: inline-block;
+   padding: 25px;
+   margin-top: 20px;
+}
+.right_details {
+    margin-top: 11%;
+    width: 600px;
+}
+.greeting{
+    font-size: 35px;
+    padding: 0px;
+    color: #F8F4F1;
+}
+.right_details p{
+    font-size: 20px;
+    color: #f3a57b;
+    padding: 10px;
+}
+.img{
+    width: 450px;
+    border-radius: 150px;
+}
+/*------------------------this is for expertise section-------*/
+.title h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    color: #a2f43c;
+}
+ .skill_title{
+    text-align: center;
+    padding: 20px;
+    color: #ffffff;
+    font-size: 30px;
+ }
+ .skill_section{
+    display: flex;
+    position: relative;
+    padding: -200px 5px 5px 5px;
+    justify-content: center;
+    margin: 40px;
+ }
+ .skill_item{
+    display: inline-block;
+    width: 25%;
+    margin: 5px 30px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    vertical-align: top;
+ }
+
+ .text_preview{
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 20px;
+    text-align: left;
+    word-spacing: 0.4pc;
+    background-color: #0f083b73;
+    border-radius: 5px;
+    max-height: 109px;
+    overflow: hidden;
+    position: relative;
+    transition: max-height 0.5s ease;
+ }
+ .text_preview.expanded {
+    max-height: 1000px;
+  }
+
+ .btn_preview{
+    background-color: #f3a57b;
+    color: white;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 5px; 
+    cursor: pointer;
+ }
+ /*------------------------this is for counting animate section-------*/
+ .progress {
+    padding-bottom: 70px;
+    margin-top: 100px;
+}
+.container_stats {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+#title{/*i used id here*/
+    font-size: 22px;
+}
+.stat_item {
+    text-align: center;
+    padding: 20px;
+    min-width: 200px;
+}
+
+.count_title {
+   font-size: 50px;
+   font-weight: normal;
+   margin-top: 10px;
+   margin-bottom: 0;
+   color: #ffffff;
+   font-weight: bolder;
+   text-align: center;
+}
+
+.stats_text {
+   font-size: 20px;
+   font-weight: bolder;
+   color: #febb98;
+   font-weight: normal;
+   margin-top: 15px;
+   margin-bottom: 0;
+   text-align: center;
+   text-transform: uppercase;
+}
+
+.stats_line {
+   margin: 12px auto 0;
+   width: 55px;
+   height: 2px;
+   background-color: #00ff33;
+}
+.stats_icon {
+   float: none;
+   font-size: 50px;
+   margin: 0 auto;
+   display: table;
+   color: #ffffff;
+}
+/*------------------------this is for footer section-------*/
+.container-links{
+    background-color: #0f083b96;
+    display: block;
+    padding: 15px;
+ }
+ .quick-links{
+    display: inline-block;
+    vertical-align: top;
+    color: #4bc153;
+    margin: 30px;
+    margin-left: 150px;
+    font-size: 22px;
+    font-weight: normal;
+ }
+ .links{
+    display: inline-block;
+    margin: 10px 150px 0px 0px;
+    width: 250px;
+    vertical-align: top;
+ }
+ .links ul{
+    list-style: none;
+    font-size: 16px;
+ }
+ .links ul a {
+    color: #fff;
+    font-weight:normal;
+    text-decoration: none;
+ }
+ .links ul li {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: justify;
+ }
+ .links ul a:hover{
+    color: #4bc153;
+ }
+ .newsletter{
+    display: block;
+    font-size: 17px;
+    font-weight: normal;
+    color: #4bc153;
+    padding: 10px 10px 10px 50px;
+ }
+ .newsletter h5{
+    font-size: 19px;
+    font-weight: bold;
+    margin: 5px;
+ 
+ }
+ .newsletter label{
+    font-size: 17px;
+ 
+ }
+ .newsletter input{
+    font-size: 17px;
+    border-radius: 4px;
+    
+ }
+ #msg{
+    display: none;
+    font-size: 16px;
+    font-weight: normal;
+    color: #ffffff;
+ }
+ .newsletter .btn{
+    font-size: 15px;
+    background-color:#f3a57b;
+    color: #fff;
+    border-radius: 4px;
+    padding: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+ }
+ .newsletter .btn:hover{
+    background-color: #4bc153;
+ }
+ .link-Disclaimer{
+    display: block;
+    width: 850px;
+    margin-left: 500px;
+    margin-top: -100px;
+    padding-bottom: 20px;
+ }
+ .link-Disclaimer{
+    font-size: 22px;
+    color: #4bc153;
+    font-weight: normal;
+ }
+ .link-Disclaimer p{
+    font-size: 17px;
+    color: #f3a57b;
+    padding: 0 0 10px;
+ }
+ .link-Disclaimer p a{
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+ }
+ .link-Disclaimer p a:hover{
+    color: #4bc153;
+    text-decoration: underline;
+ }
+ 
