@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   let greeting;
 
-  if (currentHour >= 5 && currentHour < 12) {
+  if (currentHour >= 1 && currentHour < 12) {
     greeting = "Good Morning, I am Alex Ohuru";
   } else if (currentHour >= 12 && currentHour < 17) {
     greeting = "Good Afternoon, I am Alex Ohuru";
